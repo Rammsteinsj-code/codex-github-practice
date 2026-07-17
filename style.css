@@ -5,6 +5,7 @@
   --muted: #5d6678;
   --line: #d9d2c7;
   --accent: #167c80;
+  --accent-dark: #0e575a;
   --card: #ffffff;
 }
 
@@ -55,6 +56,23 @@ h1 {
   font-size: 1.12rem;
 }
 
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 28px;
+  padding: 0 18px;
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: var(--accent-dark);
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -78,6 +96,27 @@ article h2 {
 article p,
 footer p {
   margin: 0;
+  color: var(--muted);
+}
+
+.checklist {
+  margin-top: 40px;
+  padding: 28px;
+  background: #eef7f5;
+  border: 1px solid #b7d9d4;
+  border-radius: 8px;
+}
+
+.checklist h2 {
+  margin: 0 0 16px;
+  font-size: 1.45rem;
+}
+
+.checklist ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 20px;
   color: var(--muted);
 }
 
