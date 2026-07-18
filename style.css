@@ -99,6 +99,33 @@ footer p {
   color: var(--muted);
 }
 
+.status {
+  margin-top: 40px;
+  padding: 28px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+}
+
+.status-label {
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.status h2 {
+  margin: 0 0 8px;
+  font-size: 1.45rem;
+}
+
+.status p:last-child {
+  margin: 0;
+  color: var(--muted);
+}
+
 .checklist {
   margin-top: 40px;
   padding: 28px;
