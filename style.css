@@ -126,6 +126,43 @@ footer p {
   color: var(--muted);
 }
 
+.links {
+  margin-top: 40px;
+}
+
+.links h2 {
+  margin: 0 0 16px;
+  font-size: 1.45rem;
+}
+
+.links ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links li {
+  min-height: 128px;
+  padding: 24px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.links a {
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.links span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+}
+
 .checklist {
   margin-top: 40px;
   padding: 28px;
@@ -159,6 +196,10 @@ footer {
   }
 
   .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .links ul {
     grid-template-columns: 1fr;
   }
 }
