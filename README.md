@@ -2,6 +2,12 @@
 
 This is a small practice repository for learning how Codex works with GitHub.
 
+## Live site
+
+View the published GitHub Pages site:
+
+https://rammsteinsj-code.github.io/codex-github-practice/
+
 ## What is inside
 
 - `index.html` - a simple personal introduction page
